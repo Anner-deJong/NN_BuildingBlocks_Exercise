@@ -2,13 +2,13 @@
 
 This ipython notebook implements three simple Neural Nets that try to classify the MNIST dataset:
 
-* Vanilla_NN:
+* Vanilla_NN:		         
 Vanilla Neural Network
 
-* Drop_BN_NN:
+* Drop_BN_NN:		         
 Slightly fancier Neural Network with Dropout and Batch Normalization
 
-* Conv_NN:
+* Conv_NN:		         
 Simple Convolutional Neural Network
 
 This code is mostly aimed for those who are familiar with the basics of Neural Networks, and want to see and understand an actual practical implementation.
@@ -30,16 +30,16 @@ Files description:
 * Data_MNIST:		         
 folder that should contain all the data, please download these yourself
 
-* Models.py:             
+* Models.py:		         
 script that contains athe three networks as python classes
 
-* NN_utils.py:
+* NN_utils.py:		         
 script that contains all library of main neural network functions
 
-* NeuralNets.ipynb
+* NeuralNets.ipynb:		          
 ipython notebook that instantiates the network classes from Models.py, and trains them etc. More description inside.
 
-* NN_SinglePage.ipynb
+* NN_SinglePage.ipynb:		         
 Separate, stand alone ipython notebook in case you just want a single file of code. (Requires data separate though!)
 
 
